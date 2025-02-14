@@ -8,22 +8,48 @@
         <div class="mb-3">
             <label for="NomInput" class="form-label">Nom</label>
             <input type="text" class="form-control" id="NomInput" placeholder="Votre nom" name="Nom"> 
-        </div>
-        <div class="mb-3">
+
+            <div class="invalid-feedback">
+              nom nom nom
+            </div>
+          </div>
+          <div class="mb-3">
             <label for="PrenomInput" class="form-label">Prénom</label>
-            <input type="text" class="form-control" id="PrenomInput" placeholder="Votre prénom" name="Prenom"> 
+            <input type="text" class="form-control" id="PrenomInput" placeholder="Votre prénom" name="Prenom">
+            
+            <div class="invalid-feedback">
+              T ES QUI WESH ?
+            </div>
         </div>
         <div class="mb-3">
           <label for="EmailInput" class="form-label">Email</label>
-          <input type="email" class="form-control" id="EmailInput" placeholder="test@mail.fr" name="Email"> 
+          <input type="email" class="form-control" id="EmailInput" placeholder="test@mail.fr" name="Email">
+
+          <div class="invalid-feedback">
+              lache le mail quon te hack
+          </div>
         </div>
         <div class="mb-3">
           <label for="PasswordInput" class="form-label">Mot de passe</label>
           <input type="password" class="form-control" id="PasswordInput" name="Password">
+          <!-- permet d afficher un message d erreur si le mot de passe n est pas conforme -->
+          <div class="invalid-feedback"> 
+            Votre mot de passe doit contenir au moins 8 caractères, une majuscule, une minuscule et un chiffre et un caractère spécial. <br> evite 1234 ou le nom de ta meuf. <br> A non t en a pas mdr!
+          </div>
+          <!-- permet d afficher un message de validation si le mot de passe est conforme -->
+          <div class="valid-feedback">
+           et c est, VALIDERRRRRRRRRRRR!!!!!!!!!!!!!!!
+          </div>  
         </div>
         <div class="mb-3">
             <label for="ValidatePasswordInput" class="form-label">Validez votre mot de passe</label>
             <input type="password" class="form-control" id="ValidatePasswordInput" name="PasswordConfirm">
+            <div class="invalid-feedback">
+              meme copier tu sais pas faire, c'est triste !
+          </div>
+          <div class="valid-feedback">
+            quand meme, c'est pas si dur !
+          </div> 
           </div>
         <div class="text-center">
             <button type="submit" class="btn btn-primary" id="btn-validation-inscripton">Inscription</button>
