@@ -12020,18 +12020,16 @@ p {
 .image-card {
   position: relative;
 }
-.image-card:hover .titre-image {
+.image-card:hover .titre-image, .image-card:hover .action-image-buttons {
   opacity: 1;
 }
 .image-card:hover img {
   filter: brightness(0.6);
 }
-
-img {
+.image-card img {
   transition: all 0.3s;
 }
-
-.titre-image {
+.image-card .titre-image {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12039,7 +12037,17 @@ img {
   opacity: 0;
   transition: all 1.7s;
 }
-
-.form-label {
+.image-card .form-label {
   color: #906427;
+}
+.image-card .action-image-buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  transition: all 1.7s;
 }/*# sourceMappingURL=main.css.map */
