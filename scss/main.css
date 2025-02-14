@@ -12020,7 +12020,8 @@ p {
 .image-card {
   position: relative;
 }
-.image-card:hover .titre-image, .image-card:hover .action-image-buttons {
+.image-card:hover .titre-image,
+.image-card:hover .action-image-buttons {
   opacity: 1;
 }
 .image-card:hover img {
@@ -12050,4 +12051,10 @@ p {
   justify-content: space-between;
   opacity: 0;
   transition: all 1.7s;
+}
+
+.allreservation a {
+  display: block;
+  color: #292222;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */

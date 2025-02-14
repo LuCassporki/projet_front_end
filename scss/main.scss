@@ -61,7 +61,9 @@ p {
     position: relative;
 
     &:hover {
-        .titre-image , .action-image-buttons {
+
+        .titre-image,
+        .action-image-buttons {
             opacity: 1;
         }
 
@@ -100,5 +102,14 @@ p {
         justify-content: space-between;
         opacity: 0;
         transition: all 1.7s;
+    }
+}
+
+
+.allreservation {
+    a {
+        display: block;
+        color: $black;
+        padding: 10px;
     }
 }
