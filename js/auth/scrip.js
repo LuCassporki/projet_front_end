@@ -62,11 +62,11 @@ function isConnected() {
   }
 }
 
-// if (isConnected()) {
-//   alert("Vous êtes connecté");
-// } else {
-//   alert("Vous n'êtes pas connecté");
-// }
+if (isConnected()) {
+  alert("Vous êtes connecté");
+} else {
+  alert("Vous n'êtes pas connecté");
+}
 
 //role
 // 1-deconnecter
