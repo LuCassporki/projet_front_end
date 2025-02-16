@@ -14,7 +14,7 @@ function checkCredentials() {
     const token = "ujhygfjgjgvyjtjgvygjkg";
     setToken(token);
     //placer les tokens en cookie
-
+setCookie(RoleCookieName, "admin", 7); 
     window.location.replace("/");
   } else {
     alert("Connexion échouée");
